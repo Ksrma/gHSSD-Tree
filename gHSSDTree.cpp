@@ -3,6 +3,52 @@
 
 // TODO: each time remove the least contributing subset
 
+/*-------------------------------------------------------------------
+
+                  Copyright (c) 2023
+            Jingda Deng <jddeng@xjtu.edu.cn>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+---------------------------------------------------------------------
+
+This C++ program executes the decremental greedy hypervoluem subset
+selection for dimensionality >= 3. Please refer to the following 
+paper for a description of this gHSSD-Tree algorithm: 
+
+Jingda Deng, Jianyong Sun, Qingfu Zhang, and Hui Li, "Efficient Greedy 
+Hypervolume Subset Selection Using Space Partition Tree".
+
+Compilation: g++ -O3 gHSSDTree.cpp
+Usage: gHSSDTree <number of points> <dimension> <number of points to be reserved>
+       <input file> <reference point file> <outputfile(optional)>
+       
+       Input file should contain n lines (n is the number of points).
+       Each line contains d numbers separated by blanks (d is the number of dimensionality).
+       
+Notice: (1) Codes for timing in the main function only work in Linux. 
+        Our codes can work well in Windows platform (e.g., Visual 
+        Studio) after removing or changing them.
+        (2) These codes work for MINIMIZATION problem, but it can be
+        easily revised for MAXIMIZATION problem by changing points 
+        according to the reference point when reading data file.
+
+Special thanks to Nicola Beume for providing source codes of 
+the HOY algorithm. I have learned a lot from them. 
+
+---------------------------------------------------------------------*/
+
 #include <cstdlib>
 #include <cstdio>
 #include <iostream>
