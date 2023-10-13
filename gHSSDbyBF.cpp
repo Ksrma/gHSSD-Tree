@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 This C++ program executes the decremental greedy hypervoluem subset
 selection for dimensionality >= 3. Please refer to the following 
-paper for a description of this gHSSD-Tree algorithm: 
+paper for a description of this gHSSDbyBF algorithm: 
 
 Karl Bringmann, Tobias Friedrich, "An Efficient Algorithm for 
 Computing Hypervolume Contributions", Evolutionary Computation, vol. 18,
