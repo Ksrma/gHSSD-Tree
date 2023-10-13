@@ -1,5 +1,5 @@
 // greedy HSSD by reusing space partition tree: each time remove the least hypervolume contributor
-// it is efficient only when k <= n-sqrt(n); complexity is O((n-k)n^{(d-1)/2}logn)
+// it is efficient only when k <= n-sqrt(n); complexity is O({n-k+n^(1/2)}n^{(d-1)/2}logn)
 
 // TODO: each time remove the least contributing subset
 
