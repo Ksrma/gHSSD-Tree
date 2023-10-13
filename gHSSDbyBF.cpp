@@ -1,4 +1,5 @@
-// Implementation of BF's algorithm for HVC (of each single point), with LinkedList used in HVC4DG
+// gHSSD by directly using BF's algorithm
+// Our Implementation of BF's algorithm for HVC (of each single point), with LinkedList used in HVC4DG
 
 #include <cstdlib>
 #include <cstdio>
