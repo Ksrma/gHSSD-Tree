@@ -1,6 +1,6 @@
 # gHSSD-Tree
-An efficient algorithm for decremental greedy hypervolume subset selection (gHSSD)
 (see gHSSDTree.cpp)
+An efficient algorithm for greedy decremental hypervolume subset selection (gHSSD)
 
 The time complexity is $O((n-k+\sqrt{n})n^{\frac{d-1}{2}}\log n)$ where n is the number of points, d is the dimensionality, and k is the number of points to be reserved.
 
