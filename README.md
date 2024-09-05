@@ -8,7 +8,7 @@ The time complexity is $O((n-k+\sqrt{n})n^{\frac{d-1}{2}}\log n)$ where n is the
 This is the implementation of our method proposed in:
 
 Jingda Deng, Jianyong Sun, Qingfu Zhang, and Hui Li, "Efficient Greedy Decremental Hypervolume Subset Selection
-Using Space Partition Tree" (submitted to IEEE-TEVC)
+Using Space Partition Tree", IEEE Transactions on Evolutionary Computation, 2024, DOI: 10.1109/TEVC.2024.3400801
 
 # gHSSD by BF
 (see gHSSDbyBF.cpp)
