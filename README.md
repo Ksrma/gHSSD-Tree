@@ -31,7 +31,7 @@ School of Mathematics and Statistics
 
 Xi'an Jiaotong University
 
-E-mail: jddeng@xjtu.edu.cn
+E-mail: ~jddeng@xjtu.edu.cn~ jddeng@xaut.edu.cn
 
 # Update Log
 2024/01/12 Improve the implementation of gHSSD-Tree, with 20%-50% speed-up
