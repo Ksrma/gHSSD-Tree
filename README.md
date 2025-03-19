@@ -27,9 +27,9 @@ Test sets in the numerical experiments including:
 # Contact
 Jingda Deng
 
-School of Mathematics and Statistics
+School of Computer Science and Technology
 
-Xi'an Jiaotong University
+Xi'an University of Technology
 
 E-mail: ~jddeng@xjtu.edu.cn~ jddeng@xaut.edu.cn
 
